@@ -11,7 +11,7 @@ def using_pop(great_hits_of_the_nineties)
 end
 
 def pop_with_args(chars_in_game_of_thrones)
-	chars_arya_killed = chars_in_game_of_thrones.pop(2) 
+	chars_in_game_of_thrones.pop(2)
 end
 
 def using_shift(my_favorite_cities)
@@ -43,15 +43,6 @@ def using_delete(instructors, stringvar)
 end
 
 def using_delete_at(famous_robots, int)
-	famous_robots.delete_at(int)
+	famous_robots.delete_at(intl)
 end
-
-
-
-
-
-
-
-
-
 
